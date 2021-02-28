@@ -20,11 +20,11 @@ there are 4 optional arguments.
 - if -dest is not given, then the target language is assumed to be english
 
 ex:
-`cd PycharmProjects\docx-translator`
-`venv\Scripts\activate`
-`pip install -r requirements.txt`
-`python main.py -i C:\Users\peter\PycharmProjects\docx-translator\test.docx -o C:\Users\peter\PycharmProjects\docx-translator\new\translated.docx -src ko -dest fr`
-`deactivate`
+1. `cd PycharmProjects\docx-translator`
+2. `venv\Scripts\activate`
+3. `pip install -r requirements.txt`
+4. `python main.py -i C:\Users\peter\PycharmProjects\docx-translator\test.docx -o C:\Users\peter\PycharmProjects\docx-translator\new\translated.docx -src ko -dest fr`
+5. `deactivate`
 
 
 TODO:
