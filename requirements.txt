@@ -1,0 +1,12 @@
+certifi==2020.12.5
+chardet==4.0.0
+google-trans-new==1.1.9
+idna==2.10
+lxml==4.6.2
+Pillow==8.1.0
+PyQt5==5.15.3
+PyQt5-Qt==5.15.2
+PyQt5-sip==12.8.1
+python-docx==0.8.10
+requests==2.25.1
+urllib3==1.26.3
