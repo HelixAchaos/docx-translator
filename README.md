@@ -23,10 +23,11 @@ ex:
 `cd PycharmProjects\docx-translator`
 `venv\Scripts\activate`
 `pip install -r requirements.txt`
-`python main.py -i C:\Users\peter\Documents\test.docx -o C:\Users\peter\PycharmProjects\docx-translator\new\translated.docx -src ko -dest en`
+`python main.py -i C:\Users\peter\PycharmProjects\docx-translator\test.docx -o C:\Users\peter\PycharmProjects\docx-translator\new\translated.docx -src ko -dest fr`
 `deactivate`
 
 
 TODO:
 use official GoogleTrans API.
 translate only words in src_lang to target_lang
+make a way for the user to not have to write the cwd in the paths
