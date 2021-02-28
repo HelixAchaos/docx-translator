@@ -40,7 +40,7 @@ def start():
 
     filtered_orig_txt = list(filter(None, extractedText))
     translator = google_translator()
-    translated_txt = [translator.translate(txt, lang_src=args.src, lang_tgt=args.dest) for txt in progressBar(filtered_orig_txt, 'translate')]
+    translated_txt = [translator.translate(txt, lang_src=args.src[0], lang_tgt=args.dest[0]) for txt in progressBar(filtered_orig_txt, 'translate')]
     print('Translated!')
     combined_txt = mergeListAlternative(filtered_orig_txt, translated_txt)
     print('Merged!')
