@@ -31,3 +31,4 @@ TODO:
 1. use official GoogleTrans API.
 2. translate only words in src_lang to target_lang.
 3. make a way for the user to not have to write the cwd in the paths.
+4. change the name of the styles...
