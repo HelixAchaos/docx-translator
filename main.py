@@ -28,9 +28,9 @@ def progressBar(iterable, task):
         bar = '█' * filledLength + '-' * (50 - filledLength)
         print(f'\rProgress {task}: |{bar}| {percent}% Complete', end='\r')
     printProgressBar(0)
-    for i, item in enumerate(iterable):
+    for i, item in enumerate(iterable, 1):
         yield item
-        printProgressBar(i + 1)
+        printProgressBar(i)
     print()
 
 
